@@ -1,4 +1,3 @@
-/*
 var mysql = require('mysql');
 var inquirer = require('inquirer');
 
@@ -14,7 +13,7 @@ connection.connect(function(err) {
     if (err) throw err;
     runSearch();
 })
-*/
+
 /*
 // Dependencies
 // =============================================================
@@ -221,4 +220,4 @@ app.get('/api', function (req, res) {
 //    console.log('App listening on PORT ' + PORT)
 //})
 
-//customerSelect();
+customerSelect();
